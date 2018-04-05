@@ -2,8 +2,8 @@ module.exports = {
     date: {
         format_debug: 'Y-m-d H:M:S',
         format_filename: 'Ymd-HMS',
-        format_sitenumber: 'yMN',
-        format_unique_id: 'ymN'
+        format_sitenumber: 'yMS',
+        format_unique_id: 'ymS'
     },
     debug: {
         state: true
@@ -16,8 +16,8 @@ module.exports = {
     ints: {
         subject_num_incr: 60,
         group_num_incr: 20,
-        base_site_number: 10001,
-        base_group1_number: 10001,
-        base_group2_number: 20001
+        base_site_number: 20001,
+        base_group1_number: 20001,
+        base_group2_number: 30001
     }
 }

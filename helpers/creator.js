@@ -47,6 +47,9 @@ function addLines(base_arr, num, sitename, invname, invemail) {
     const subj_incr = configs.ints.subject_num_incr;
     const grp_incr = configs.ints.group_num_incr;
 
+    logger.Log("Base site number: " + base_site_num);
+    logger.Log("Base unique id: " + base_uniq_id);
+
     for(var i = 0; i < num; i++) {
         base_arr.push(
             [
