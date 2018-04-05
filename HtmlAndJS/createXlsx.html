@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create PEMA Site Xlsx</title>
+
+    <!-- Style -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/skeleton.css">
+    <link rel="stylesheet" href="style/style.css">
+
+
+    <!-- Script -->
+    <script type="text/javascript" src="//unpkg.com/xlsx/dist/shim.min.js"></script>
+    <script type="text/javascript" src="//unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script type="application/javascript" src="script/script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="ten columns" style="margin-top: 10%">
+                <h1>Create a Site Xlsx</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="five columns">
+                <label for="sitesnum">Number of Sites</label>
+            </div>
+            <div class="five columns">
+                <input class="my-num-inputs" type="number" id="sitesnum" placeholder="Num" min="1" max="99" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="five columns">
+                <label for="sitesname">Sites Name</label>
+            </div>
+            <div class="five columns">
+                <input class="my-txt-inputs" type="email" id="sitesname" placeholder="TestSite" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="five columns">
+                <label for="invname">Investigator Name</label>
+            </div>
+            <div class="five columns">
+                <input class="my-txt-inputs" type="email" id="invname" placeholder="John Doe" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="five columns">
+                <label for="invemail">Investigator E-mail</label>
+            </div>
+            <div class="five columns">
+                <input class="my-txt-inputs" type="email" id="invemail" placeholder="user@example.com" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="three columns">&nbsp;</div>
+            <div class="four columns">
+                <input class="my-txt-inputs u-full-width" type="submit" id="submitbutton" value="Create" />
+            </div>
+            <div class="three columns">&nbsp;</div>
+        </div>
+    </div>
+</body>
+</html>
